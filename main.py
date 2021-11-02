@@ -32,7 +32,8 @@ def main():
     bfs=bestFirstSearch(listaCompleta, 'A')
     print("Camino:",end="")
     for data in bfs:
-        print(data,end=" -> ")
+        print(" -> ",end="")
+        print(data,end="")
 
 if __name__ == "__main__":
    main()
